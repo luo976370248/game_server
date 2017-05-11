@@ -1,0 +1,123 @@
+﻿  Win32_Time.c
+g:\test\game_server\utils\win32_time.c(160): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\time.h(73): note: 参见“__timezone”的声明
+g:\test\game_server\utils\win32_time.c(161): warning C4996: '__daylight': This function or variable may be unsafe. Consider using _get_daylight instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\time.h(61): note: 参见“__daylight”的声明
+g:\test\game_server\utils\win32_time.c(195): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\time.h(73): note: 参见“__timezone”的声明
+g:\test\game_server\utils\win32_time.c(196): warning C4996: '__daylight': This function or variable may be unsafe. Consider using _get_daylight instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\time.h(61): note: 参见“__daylight”的声明
+g:\test\game_server\utils\win32_time.c(210): warning C4996: '_ctime64': This function or variable may be unsafe. Consider using _ctime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\time.h(162): note: 参见“_ctime64”的声明
+g:\test\game_server\utils\win32_time.c(212): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(129): note: 参见“strcpy”的声明
+  vector_array.c
+  timestamp.c
+g:\test\game_server\utils\timestamp.c(427): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\time.h(505): note: 参见“localtime”的声明
+g:\test\game_server\utils\timestamp.c(436): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\time.h(505): note: 参见“localtime”的声明
+  timer_list.c
+  ramdom.c
+  log.c
+g:\test\game_server\utils\log.c(53): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\time.h(505): note: 参见“localtime”的声明
+  hash_int_map.c
+  cache_allocer.c
+  session.c
+g:\test\game_server\netbus\socket\session.c(97): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+g:\test\game_server\netbus\socket\session.c(238): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+  server_uv.c
+g:\test\game_server\netbus\socket\server_uv.c(134): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+g:\test\game_server\netbus\socket\server_uv.c(148): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+g:\test\game_server\netbus\socket\server_uv.c(186): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+g:\test\game_server\netbus\socket\server_uv.c(194): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+g:\test\game_server\netbus\socket\server_uv.c(201): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+g:\test\game_server\netbus\socket\server_uv.c(450): warning C4267: “=”: 从“size_t”转换到“ULONG”，可能丢失数据
+g:\test\game_server\netbus\socket\server_uv.c(438): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+g:\test\game_server\netbus\socket\server_uv.c(496): warning C4244: “+=”: 从“ssize_t”转换到“int”，可能丢失数据
+g:\test\game_server\netbus\socket\server_uv.c(593): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(129): note: 参见“strcpy”的声明
+  netbus.c
+  session_key_man.c
+  server_session.c
+  server_return.c
+g:\test\game_server\gataway_server\server_return.c(38): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+g:\test\game_server\gataway_server\server_return.c(105): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+g:\test\game_server\gataway_server\server_return.c(122): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+  server_post.c
+  main.c
+  gw_config.c
+  from_client.c
+g:\test\game_server\gataway_server\from_client.c(17): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+g:\test\game_server\gataway_server\from_client.c(68): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+g:\test\game_server\gataway_server\from_client.c(104): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+  game_command.c
+  json_extends.c
+g:\test\game_server\3rd\mjson\json_extends.c(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+g:\test\game_server\3rd\mjson\json_extends.c(76): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+g:\test\game_server\3rd\mjson\json_extends.c(109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+g:\test\game_server\3rd\mjson\json_extends.c(118): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+g:\test\game_server\3rd\mjson\json_extends.c(120): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+  正在生成代码...
+  正在编译...
+  json.c
+g:\test\game_server\3rd\mjson\json.c(132): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+g:\test\game_server\3rd\mjson\json.c(281): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+g:\test\game_server\3rd\mjson\json.c(313): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\string.h(335): note: 参见“strncpy”的声明
+g:\test\game_server\3rd\mjson\json.c(1190): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+g:\test\game_server\3rd\mjson\json.c(1339): warning C4477: “fprintf”: 格式字符串“%lX”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“int64_t”
+  g:\test\game_server\3rd\mjson\json.c(1339): note: 请考虑在格式字符串中使用“%llX”
+  g:\test\game_server\3rd\mjson\json.c(1339): note: 请考虑在格式字符串中使用“%IX”
+  g:\test\game_server\3rd\mjson\json.c(1339): note: 请考虑在格式字符串中使用“%I64X”
+  md5.c
+  http_parser.c
+g:\test\game_server\3rd\http_parser\http_parser.c(1410): warning C4244: “+=”: 从“__int64”转换到“uint32_t”，可能丢失数据
+g:\test\game_server\3rd\http_parser\http_parser.c(1521): warning C4244: “+=”: 从“__int64”转换到“uint32_t”，可能丢失数据
+g:\test\game_server\3rd\http_parser\http_parser.c(1690): warning C4244: “+=”: 从“__int64”转换到“uint32_t”，可能丢失数据
+g:\test\game_server\3rd\http_parser\http_parser.c(2278): warning C4244: “=”: 从“__int64”转换到“uint16_t”，可能丢失数据
+g:\test\game_server\3rd\http_parser\http_parser.c(2285): warning C4244: “=”: 从“__int64”转换到“uint16_t”，可能丢失数据
+g:\test\game_server\3rd\http_parser\http_parser.c(2297): warning C4244: “=”: 从“__int64”转换到“uint16_t”，可能丢失数据
+g:\test\game_server\3rd\http_parser\http_parser.c(2306): warning C4244: “=”: 从“__int64”转换到“uint16_t”，可能丢失数据
+g:\test\game_server\3rd\http_parser\http_parser.c(2406): warning C4244: “=”: 从“__int64”转换到“uint16_t”，可能丢失数据
+  sha1.c
+g:\test\game_server\3rd\crypt\sha1.c(199): warning C4267: “+=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+g:\test\game_server\3rd\crypt\sha1.c(200): warning C4267: “+=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  base64_encoder.c
+  base64_decode.c
+g:\test\game_server\3rd\crypt\base64_decode.c(28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_default_loop，该符号在函数 start_server 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_run，该符号在函数 start_server 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_strerror，该符号在函数 after_write 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_err_name，该符号在函数 after_write 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_shutdown，该符号在函数 after_read 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_close，该符号在函数 after_connect 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_buf_init，该符号在函数 socket_send_data 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_listen，该符号在函数 tcp4_server_start 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_accept，该符号在函数 on_connection 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_read_start，该符号在函数 after_connect 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_write，该符号在函数 socket_send_data 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_tcp_init，该符号在函数 netbus_connect 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_tcp_bind，该符号在函数 tcp4_server_start 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_tcp_connect，该符号在函数 netbus_connect 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_timer_init，该符号在函数 start_server 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_timer_start，该符号在函数 my_add_timer 中被引用
+server_uv.obj : error LNK2019: 无法解析的外部符号 uv_ip4_addr，该符号在函数 netbus_connect 中被引用
+G:\test\game_server\pro.win32\libuv\lib\libuv.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+G:\test\game_server\pro.win32\gameserver\x64\Debug\gataway_server.exe : fatal error LNK1120: 17 个无法解析的外部命令

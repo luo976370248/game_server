@@ -1335,6 +1335,7 @@ json_unescape (const char *text)
 					}
 					else
 					{
+
 						fprintf (stderr, "JSON: unsupported unicode value: 0x%lX\n", unicode);
 					}
 				}

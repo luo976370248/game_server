@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3ae999e1-d44f-4634-bea5-3efb999e3ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd">
+      <UniqueIdentifier>{d21df277-b929-4fa5-9397-10a50ce9bd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{e72223bd-34af-45c1-8533-5cfebddfac08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gataway">
+      <UniqueIdentifier>{e70de965-cc72-4a6f-9763-4312ab571e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\crypt">
+      <UniqueIdentifier>{2d166981-5fa4-41fd-9351-74f857e52039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\http_parser">
+      <UniqueIdentifier>{13660a17-d089-4152-92d5-e81065b2ddd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\md5">
+      <UniqueIdentifier>{3d48e9b1-48b3-4bac-8957-0cea42d82ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\mjson">
+      <UniqueIdentifier>{f55ce337-2bd2-482d-a849-3c6cf1cc6d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\netbus">
+      <UniqueIdentifier>{b4c9b245-904c-404a-b50d-95ef27f98fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\netbus\socket">
+      <UniqueIdentifier>{06afac6d-9849-4b84-a052-57ec6815cb9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{1f1216c1-dc6a-421b-895e-8f5bffdea1ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\center">
+      <UniqueIdentifier>{dded6ff7-27f9-4797-a715-757caf132424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\database">
+      <UniqueIdentifier>{954da996-d272-4858-9aca-4e17d2a10114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\center\module">
+      <UniqueIdentifier>{9ac21fd5-37b5-44ca-92ec-2fd6cf33225c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\3rd\crypt\base64_decode.c">
+      <Filter>src\3rd\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\crypt\base64_encoder.c">
+      <Filter>src\3rd\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\crypt\sha1.c">
+      <Filter>src\3rd\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\http_parser\http_parser.c">
+      <Filter>src\3rd\http_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\md5\md5.c">
+      <Filter>src\3rd\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\mjson\json.c">
+      <Filter>src\3rd\mjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\mjson\json_extends.c">
+      <Filter>src\3rd\mjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\log.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gataway_server\main.c">
+      <Filter>src\gataway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\netbus\socket\server_uv.c">
+      <Filter>src\netbus\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\netbus\socket\session.c">
+      <Filter>src\netbus\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\netbus\netbus.c">
+      <Filter>src\netbus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\timer_list.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\cache_allocer.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\ramdom.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\hash_int_map.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\timestamp.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\vector_array.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\Win32_Time.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game_command.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gataway_server\from_client.c">
+      <Filter>src\gataway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gataway_server\gw_config.c">
+      <Filter>src\gataway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gataway_server\server_post.c">
+      <Filter>src\gataway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gataway_server\server_return.c">
+      <Filter>src\gataway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gataway_server\server_session.c">
+      <Filter>src\gataway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gataway_server\session_key_man.c">
+      <Filter>src\gataway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\database\center_db_config.c">
+      <Filter>game\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\center_server\module\login.model.c">
+      <Filter>game\center\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\database\center_database.c">
+      <Filter>game\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\center_server\auth.c">
+      <Filter>game\center</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\3rd\crypt\base64_decode.h">
+      <Filter>src\3rd\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\crypt\base64_encoder.h">
+      <Filter>src\3rd\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\crypt\sha1.h">
+      <Filter>src\3rd\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\http_parser\http_parser.h">
+      <Filter>src\3rd\http_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\md5\md5.h">
+      <Filter>src\3rd\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\mjson\json.h">
+      <Filter>src\3rd\mjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\mjson\json_extends.h">
+      <Filter>src\3rd\mjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\log.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\netbus\socket\session.h">
+      <Filter>src\netbus\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\netbus\netbus.h">
+      <Filter>src\netbus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\timer.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\timer_list.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\cache_allocer.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\ramdom.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\hash_int_map.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\timestamp.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\vector_array.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\Win32_Time.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game_command.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game_result.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game_stype.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gataway_server\from_client.h">
+      <Filter>src\gataway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gataway_server\gw_config.h">
+      <Filter>src\gataway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gataway_server\server_post.h">
+      <Filter>src\gataway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gataway_server\server_return.h">
+      <Filter>src\gataway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gataway_server\server_session.h">
+      <Filter>src\gataway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\gataway_server\session_key_man.h">
+      <Filter>src\gataway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\database\center_db_config.h">
+      <Filter>game\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\center_server\module\login_model.h">
+      <Filter>game\center\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\database\center_database.h">
+      <Filter>game\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\center_server\auth.h">
+      <Filter>game\center</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
