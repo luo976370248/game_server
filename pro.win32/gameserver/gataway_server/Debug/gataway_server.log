@@ -17,9 +17,31 @@
   gw_config.c
   from_client.c
   game_command.c
-  json_extends.c
+  center_db_config.c
   正在生成代码...
   正在编译...
+  center_database.c
+g:\test\game_server\database\center_database.c(61): warning C4113: “void (__cdecl *)()”和“void (__cdecl *)(void *)”的参数列表不同
+g:\test\game_server\database\center_database.c(80): warning C4113: “void (__cdecl *)()”和“void (__cdecl *)(void *)”的参数列表不同
+g:\test\game_server\database\center_database.c(96): warning C4113: “void (__cdecl *)()”和“void (__cdecl *)(void *)”的参数列表不同
+g:\test\game_server\database\center_database.c(106): warning C4113: “void (__cdecl *)()”和“void (__cdecl *)(void *)”的参数列表不同
+g:\test\game_server\database\center_database.c(119): warning C4113: “void (__cdecl *)()”和“void (__cdecl *)(void *)”的参数列表不同
+g:\test\game_server\database\center_database.c(149): warning C4047: “函数”:“const char *”与“MYSQL_ROW”的间接级别不同
+g:\test\game_server\database\center_database.c(149): warning C4024: “strcpy”: 形参和实参 2 的类型不同
+g:\test\game_server\database\center_database.c(150): warning C4047: “函数”:“const char *”与“MYSQL_ROW”的间接级别不同
+g:\test\game_server\database\center_database.c(150): warning C4024: “strcpy”: 形参和实参 2 的类型不同
+g:\test\game_server\database\center_database.c(151): warning C4047: “函数”:“const char *”与“MYSQL_ROW”的间接级别不同
+g:\test\game_server\database\center_database.c(151): warning C4024: “atoi”: 形参和实参 1 的类型不同
+g:\test\game_server\database\center_database.c(152): warning C4047: “函数”:“const char *”与“MYSQL_ROW”的间接级别不同
+g:\test\game_server\database\center_database.c(152): warning C4024: “atoi”: 形参和实参 1 的类型不同
+g:\test\game_server\database\center_database.c(153): warning C4047: “函数”:“const char *”与“MYSQL_ROW”的间接级别不同
+g:\test\game_server\database\center_database.c(153): warning C4024: “atoi”: 形参和实参 1 的类型不同
+g:\test\game_server\database\center_database.c(144): warning C4047: “初始化”:“MYSQL_ROW *”与“MYSQL_ROW”的间接级别不同
+  login.model.c
+  center_services.c
+  cener_config.c
+  auth.c
+  json_extends.c
   json.c
 g:\test\game_server\3rd\mjson\json.c(1339): warning C4477: “fprintf”: 格式字符串“%lX”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“int64_t”
   g:\test\game_server\3rd\mjson\json.c(1339): note: 请考虑在格式字符串中使用“%llX”

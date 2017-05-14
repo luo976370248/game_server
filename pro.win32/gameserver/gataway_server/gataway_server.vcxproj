@@ -94,7 +94,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>G:\test\game_server\pro.win32\libuv\lib;G:\test\game_server\pro.win32\mysql-connector-c-6.1.9-win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\libuv\lib;..\..\hiredis\lib;..\..\mysql-connector-c-6.1.9-win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>/NODEFAULTLIB:libcmt.lib %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>libuv.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -155,10 +155,14 @@
     <ClCompile Include="..\..\..\3rd\mjson\json.c" />
     <ClCompile Include="..\..\..\3rd\mjson\json_extends.c" />
     <ClCompile Include="..\..\..\center_server\auth.c" />
+    <ClCompile Include="..\..\..\center_server\cener_config.c" />
+    <ClCompile Include="..\..\..\center_server\center_services.c" />
     <ClCompile Include="..\..\..\center_server\module\login.model.c" />
     <ClCompile Include="..\..\..\database\center_database.c" />
     <ClCompile Include="..\..\..\database\center_db_config.c" />
     <ClCompile Include="..\..\..\game_command.c" />
+    <ClCompile Include="..\..\..\game_server\game_player.c" />
+    <ClCompile Include="..\..\..\game_server\gserver_config.c" />
     <ClCompile Include="..\..\..\gataway_server\from_client.c" />
     <ClCompile Include="..\..\..\gataway_server\gw_config.c" />
     <ClCompile Include="..\..\..\gataway_server\main.c" />
@@ -187,11 +191,15 @@
     <ClInclude Include="..\..\..\3rd\mjson\json.h" />
     <ClInclude Include="..\..\..\3rd\mjson\json_extends.h" />
     <ClInclude Include="..\..\..\center_server\auth.h" />
+    <ClInclude Include="..\..\..\center_server\cener_config.h" />
+    <ClInclude Include="..\..\..\center_server\center_services.h" />
     <ClInclude Include="..\..\..\center_server\module\login_model.h" />
     <ClInclude Include="..\..\..\database\center_database.h" />
     <ClInclude Include="..\..\..\database\center_db_config.h" />
     <ClInclude Include="..\..\..\game_command.h" />
     <ClInclude Include="..\..\..\game_result.h" />
+    <ClInclude Include="..\..\..\game_server\game_player.h" />
+    <ClInclude Include="..\..\..\game_server\gserver_config.h" />
     <ClInclude Include="..\..\..\game_stype.h" />
     <ClInclude Include="..\..\..\gataway_server\from_client.h" />
     <ClInclude Include="..\..\..\gataway_server\gw_config.h" />

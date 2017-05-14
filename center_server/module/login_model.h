@@ -1,6 +1,8 @@
 #ifndef _LOGION_MODEL_H_
 #define _LOGION_MODEL_H_
 
+#include "../../database/center_database.h"
+
 enum 
 {
 	MODEL_SUCCESS = 0, // ²Ù×÷³É¹¦

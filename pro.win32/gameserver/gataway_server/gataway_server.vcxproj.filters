@@ -34,14 +34,17 @@
     <Filter Include="game">
       <UniqueIdentifier>{1f1216c1-dc6a-421b-895e-8f5bffdea1ff}</UniqueIdentifier>
     </Filter>
-    <Filter Include="game\center">
-      <UniqueIdentifier>{dded6ff7-27f9-4797-a715-757caf132424}</UniqueIdentifier>
-    </Filter>
     <Filter Include="game\database">
       <UniqueIdentifier>{954da996-d272-4858-9aca-4e17d2a10114}</UniqueIdentifier>
     </Filter>
-    <Filter Include="game\center\module">
+    <Filter Include="game\center_server">
+      <UniqueIdentifier>{dded6ff7-27f9-4797-a715-757caf132424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\center_server\module">
       <UniqueIdentifier>{9ac21fd5-37b5-44ca-92ec-2fd6cf33225c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\game_server">
+      <UniqueIdentifier>{bf6898b6-10ad-4480-89ee-510e1899f324}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -127,13 +130,21 @@
       <Filter>game\database</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\center_server\module\login.model.c">
-      <Filter>game\center\module</Filter>
+      <Filter>game\center_server\module</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\database\center_database.c">
       <Filter>game\database</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\center_server\auth.c">
-      <Filter>game\center</Filter>
+      <Filter>game\center_server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\center_server\cener_config.c" />
+    <ClCompile Include="..\..\..\center_server\center_services.c" />
+    <ClCompile Include="..\..\..\game_server\gserver_config.c">
+      <Filter>game\game_server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game_server\game_player.c">
+      <Filter>game\game_server</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -222,13 +233,21 @@
       <Filter>game\database</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\center_server\module\login_model.h">
-      <Filter>game\center\module</Filter>
+      <Filter>game\center_server\module</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\database\center_database.h">
       <Filter>game\database</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\center_server\auth.h">
-      <Filter>game\center</Filter>
+      <Filter>game\center_server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\center_server\cener_config.h" />
+    <ClInclude Include="..\..\..\center_server\center_services.h" />
+    <ClInclude Include="..\..\..\game_server\gserver_config.h">
+      <Filter>game\game_server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game_server\game_player.h">
+      <Filter>game\game_server</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

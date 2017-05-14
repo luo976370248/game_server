@@ -10,6 +10,33 @@
     <Filter Include="src\center">
       <UniqueIdentifier>{93168bc8-6708-4a56-8ece-ffebe3c0aade}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\3rd">
+      <UniqueIdentifier>{1d01f9a4-e6a7-4a54-b1ee-3de33410a3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\crypy">
+      <UniqueIdentifier>{9bdda2c9-8d90-4f96-a09b-f39b0e69435b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\http_parser">
+      <UniqueIdentifier>{05ac6bda-2513-4987-baa5-db9e39d876d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\md5">
+      <UniqueIdentifier>{3e7b54c1-da63-4b83-8878-3525d21c5aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\mjson">
+      <UniqueIdentifier>{af49b6db-6c64-43b3-8582-7384c0654fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\netbus">
+      <UniqueIdentifier>{8f005ae4-5a73-464e-8173-496fb678b97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\netbus\socket">
+      <UniqueIdentifier>{e1a29be6-e919-4e3c-846d-a8c49fef70f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\center\module">
+      <UniqueIdentifier>{bfbb0184-1699-46bc-99cd-cfe325167a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\database">
+      <UniqueIdentifier>{361076d9-056b-4033-a1e8-34c4b7a9737b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\utils\log.c">
@@ -18,10 +45,160 @@
     <ClCompile Include="..\..\..\center_server\main.c">
       <Filter>src\center</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\utils\cache_allocer.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\hash_int_map.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\ramdom.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\timer_list.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\timestamp.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\vector_array.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\utils\Win32_Time.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\crypt\base64_decode.c">
+      <Filter>src\3rd\crypy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\crypt\base64_encoder.c">
+      <Filter>src\3rd\crypy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\crypt\sha1.c">
+      <Filter>src\3rd\crypy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\http_parser\http_parser.c">
+      <Filter>src\3rd\http_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\md5\md5.c">
+      <Filter>src\3rd\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\mjson\json.c">
+      <Filter>src\3rd\mjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rd\mjson\json_extends.c">
+      <Filter>src\3rd\mjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\netbus\socket\server_uv.c">
+      <Filter>src\netbus\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\netbus\socket\session.c">
+      <Filter>src\netbus\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\netbus\netbus.c">
+      <Filter>src\netbus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game_command.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\center_server\module\login.model.c">
+      <Filter>src\center\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\center_server\auth.c">
+      <Filter>src\center</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\center_server\cener_config.c">
+      <Filter>src\center</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\center_server\center_services.c">
+      <Filter>src\center</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\database\center_database.c">
+      <Filter>src\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\database\center_db_config.c">
+      <Filter>src\database</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\utils\log.h">
       <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\cache_allocer.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\hash_int_map.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\ramdom.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\timer.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\timer_list.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\timestamp.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\vector_array.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\utils\Win32_Time.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\crypt\base64_decode.h">
+      <Filter>src\3rd\crypy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\crypt\base64_encoder.h">
+      <Filter>src\3rd\crypy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\crypt\sha1.h">
+      <Filter>src\3rd\crypy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\http_parser\http_parser.h">
+      <Filter>src\3rd\http_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\md5\md5.h">
+      <Filter>src\3rd\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\mjson\json.h">
+      <Filter>src\3rd\mjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rd\mjson\json_extends.h">
+      <Filter>src\3rd\mjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\netbus\socket\session.h">
+      <Filter>src\netbus\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\netbus\netbus.h">
+      <Filter>src\netbus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game_command.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game_result.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game_stype.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\center_server\module\login_model.h">
+      <Filter>src\center\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\center_server\auth.h">
+      <Filter>src\center</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\center_server\cener_config.h">
+      <Filter>src\center</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\center_server\center_services.h">
+      <Filter>src\center</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\database\center_database.h">
+      <Filter>src\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\database\center_db_config.h">
+      <Filter>src\database</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

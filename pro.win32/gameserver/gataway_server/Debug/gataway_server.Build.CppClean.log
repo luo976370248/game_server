@@ -1,6 +1,6 @@
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\vc141.pdb
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\vc141.idb
-g:\test\game_server\pro.win32\gameserver\gataway_server\debug\json_extends.obj
+g:\test\game_server\pro.win32\gameserver\gataway_server\debug\center_db_config.obj
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\game_command.obj
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\from_client.obj
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\gw_config.obj
@@ -26,6 +26,15 @@ g:\test\game_server\pro.win32\gameserver\gataway_server\debug\sha1.obj
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\http_parser.obj
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\md5.obj
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\json.obj
+g:\test\game_server\pro.win32\gameserver\gataway_server\debug\json_extends.obj
+g:\test\game_server\pro.win32\gameserver\gataway_server\debug\auth.obj
+g:\test\game_server\pro.win32\gameserver\gataway_server\debug\cener_config.obj
+g:\test\game_server\pro.win32\gameserver\gataway_server\debug\center_services.obj
+g:\test\game_server\pro.win32\gameserver\gataway_server\debug\login.model.obj
+g:\test\game_server\pro.win32\gameserver\gataway_server\debug\center_database.obj
+g:\test\game_server\pro.win32\gameserver\debug\gataway_server.ilk
+g:\test\game_server\pro.win32\gameserver\debug\gataway_server.exe
+g:\test\game_server\pro.win32\gameserver\debug\gataway_server.pdb
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\gataway_server.tlog\cl.command.1.tlog
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\gataway_server.tlog\cl.read.1.tlog
 g:\test\game_server\pro.win32\gameserver\gataway_server\debug\gataway_server.tlog\cl.write.1.tlog

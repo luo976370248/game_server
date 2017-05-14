@@ -88,10 +88,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\hiredis\include;..\..\mysql-connector-c-6.1.9-win32\include;..\..\libuv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>..\..\hiredis\lib;..\..\libuv\lib;..\..\mysql-connector-c-6.1.9-win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/NODEFAULTLIB:libcmt.lib %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -139,11 +143,61 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\3rd\crypt\base64_decode.c" />
+    <ClCompile Include="..\..\..\3rd\crypt\base64_encoder.c" />
+    <ClCompile Include="..\..\..\3rd\crypt\sha1.c" />
+    <ClCompile Include="..\..\..\3rd\http_parser\http_parser.c" />
+    <ClCompile Include="..\..\..\3rd\md5\md5.c" />
+    <ClCompile Include="..\..\..\3rd\mjson\json.c" />
+    <ClCompile Include="..\..\..\3rd\mjson\json_extends.c" />
+    <ClCompile Include="..\..\..\center_server\auth.c" />
+    <ClCompile Include="..\..\..\center_server\cener_config.c" />
+    <ClCompile Include="..\..\..\center_server\center_services.c" />
     <ClCompile Include="..\..\..\center_server\main.c" />
+    <ClCompile Include="..\..\..\center_server\module\login.model.c" />
+    <ClCompile Include="..\..\..\database\center_database.c" />
+    <ClCompile Include="..\..\..\database\center_db_config.c" />
+    <ClCompile Include="..\..\..\game_command.c" />
+    <ClCompile Include="..\..\..\netbus\netbus.c" />
+    <ClCompile Include="..\..\..\netbus\socket\server_uv.c" />
+    <ClCompile Include="..\..\..\netbus\socket\session.c" />
+    <ClCompile Include="..\..\..\utils\cache_allocer.c" />
+    <ClCompile Include="..\..\..\utils\hash_int_map.c" />
     <ClCompile Include="..\..\..\utils\log.c" />
+    <ClCompile Include="..\..\..\utils\ramdom.c" />
+    <ClCompile Include="..\..\..\utils\timer_list.c" />
+    <ClCompile Include="..\..\..\utils\timestamp.c" />
+    <ClCompile Include="..\..\..\utils\vector_array.c" />
+    <ClCompile Include="..\..\..\utils\Win32_Time.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\3rd\crypt\base64_decode.h" />
+    <ClInclude Include="..\..\..\3rd\crypt\base64_encoder.h" />
+    <ClInclude Include="..\..\..\3rd\crypt\sha1.h" />
+    <ClInclude Include="..\..\..\3rd\http_parser\http_parser.h" />
+    <ClInclude Include="..\..\..\3rd\md5\md5.h" />
+    <ClInclude Include="..\..\..\3rd\mjson\json.h" />
+    <ClInclude Include="..\..\..\3rd\mjson\json_extends.h" />
+    <ClInclude Include="..\..\..\center_server\auth.h" />
+    <ClInclude Include="..\..\..\center_server\cener_config.h" />
+    <ClInclude Include="..\..\..\center_server\center_services.h" />
+    <ClInclude Include="..\..\..\center_server\module\login_model.h" />
+    <ClInclude Include="..\..\..\database\center_database.h" />
+    <ClInclude Include="..\..\..\database\center_db_config.h" />
+    <ClInclude Include="..\..\..\game_command.h" />
+    <ClInclude Include="..\..\..\game_result.h" />
+    <ClInclude Include="..\..\..\game_stype.h" />
+    <ClInclude Include="..\..\..\netbus\netbus.h" />
+    <ClInclude Include="..\..\..\netbus\socket\session.h" />
+    <ClInclude Include="..\..\..\utils\cache_allocer.h" />
+    <ClInclude Include="..\..\..\utils\hash_int_map.h" />
     <ClInclude Include="..\..\..\utils\log.h" />
+    <ClInclude Include="..\..\..\utils\ramdom.h" />
+    <ClInclude Include="..\..\..\utils\timer.h" />
+    <ClInclude Include="..\..\..\utils\timer_list.h" />
+    <ClInclude Include="..\..\..\utils\timestamp.h" />
+    <ClInclude Include="..\..\..\utils\vector_array.h" />
+    <ClInclude Include="..\..\..\utils\Win32_Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
